@@ -8,7 +8,7 @@ using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 
-namespace DnD_Bot
+namespace DnDBot
 {
     class Program
     {
