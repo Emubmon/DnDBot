@@ -14,7 +14,6 @@ namespace DnDBot.Core.Commands
         [Command("hello"), Alias("helloworld, world"), Summary("Hello world command")]
         public async Task Sjustin()
         {
-            int thistestint = 100;
             await Context.Channel.SendMessageAsync("Hello world");
         }
     }
